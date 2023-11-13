@@ -6,7 +6,7 @@ In our preceeding work featured in Journal of Chemical Theory and computation (h
 
 In our on-going work, we are persuing the URF protocol to resolve protein's conformational landscape and implemented it in python.
 
-This is an on-going work. Complete codes and results shall be out soon .... AN SMALL PRESENTATION IS PROVIDED, IF ANYONE IS INTERESTED. PLEASE FEEL FREE TO CONTACT FOR ANY DISCUSSION VIA LINKEDIN OR TWITTER.
+This is an on-going work. Complete codes and results shall be out soon .... AN SMALL PRESENTATION (peek_into_results.pdf) IS PROVIDED, IF ANYONE IS INTERESTED. PLEASE FEEL FREE TO CONTACT FOR ANY DISCUSSION VIA LINKEDIN OR TWITTER.
 
 
 
