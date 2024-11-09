@@ -1,0 +1,31 @@
+
+This path contain scripts used in the work titled, "Unbiased learning of protein's conformational representation via unsupervised random forest".
+
+structure of this path:
+
+Scripts:
+  T4L
+
+  ASH1
+
+  pASH1
+
+  SIC1
+
+  pSIC1
+
+  mopR
+
+  P450_binding
+
+  P450_channel1
+
+  LJ_polymer
+
+  asyn
+
+
+
+
+
+Note: due to interpretable organization of this path, the input paths mentioned in scripts may not be loaded. Anyways, input data is available at zenodo ().
