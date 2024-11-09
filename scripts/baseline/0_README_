@@ -1,0 +1,69 @@
+
+
+all the result files are copied here - from their respective folders
+
+the saving format is:
+	[ hyperparam_rep, cv_rep ]
+
+
+
+the iters are as follows:
+
+
+	::approach::		::hyperparam_replicates::		::cv_replicates::
+
+1:	vamp2	
+					1					6
+					1					10
+
+2:	train_loo
+					1					5
+					1					5
+
+3:	predict_loo
+					1					5
+					1					5
+
+4: 	RFE
+					1					5
+					1					5
+
+5:	Amino
+					1					5    [original, ~200 selection]
+					1					5
+
+6:	Spectral oasis	
+					1					1
+					1					1
+
+7: 	Mosaic 
+					3					5   [first, first3, all_with_>=5]
+					3					5
+
+8:	Shap
+					1					5
+					1					5
+
+9:	saliency-FNN
+					2					5 [nn6, nn1-l10.001]
+					6					5
+
+10:	saliency-TVAE
+					5					5
+					6					5
+
+11: 	Deeptica
+					4					1
+					3					1
+
+12:	AE-tica
+					5					5
+					6					5 [ relu, tanh]
+
+13:	TICA-VDE
+					4					1
+					4					1
+
+14:	Random
+					1					5
+					1					5
