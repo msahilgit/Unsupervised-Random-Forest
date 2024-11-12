@@ -1,0 +1,18 @@
+
+
+
+Using final code, time vs memory curves shall be generating:
+
+
+first: 
+	normal code with pmt_data_size as [0.1-1] and compare it with already_done work [of data size] to make sure that urf class is working correctly:
+							[ comparision in terms of fimp, and s.e. + l.c.]
+
+second:
+	try with fit-predict with pmt_data_size [0.1-1] and compare it with above method 
+							[ comparision in terms of above 3 factors]
+
+
+
+sample command line
+# ~/softwares/miniconda3/bin/mprof run lm_1.0.py
