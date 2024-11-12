@@ -1,0 +1,79 @@
+
+
+
+As per the original paper:
+
+	4 factors are important:
+
+		no of hidden layers
+		
+		size of hidden layers
+
+		latent dimensions [no of states]
+
+		lag_time [taking same as for other pipelines]
+
+
+	latent dimensions are used as [3, 4, 5, 6] corresponding to pcca states performed on mopr MSM
+
+	hidden layer no and size are connected - decreased by a constant factor [depending on depth of network] [2, 3, 4, 6]
+
+
+
+HYPERPARAMETERS:
+	
+	regularization : (paper: less than 10^-4)
+
+	dropout        : (paper: 10% in first two (or one) layers)
+
+	learning_rate  : (paper: starting with 0.05, reduced 10x if no improvement in vamp2 scores in training)
+
+
+OVERALL: taking only those settings where reasonable vamp2 training curves will be obtained [changing hyperparams based on this only]
+
+
+
+The following architectures shall be trained:
+
+	3 - 6 - 12 - 24 - 48 - 96 - 229
+	3 - 9 - 27 - 81 - 229
+	3 - 12 - 48 - 229
+	3 - 18 - 108 - 229
+
+	4 - 8 - 16 - 32 - 64 - 128 - 229
+	4 - 12 - 36 - 108 - 229
+	4 - 16 - 64 - 229
+	4 - 24 - 144 - 229
+
+	5 - 10 - 20 - 40 - 80 - 229
+	5 - 15 - 45 - 135 - 229
+	5 - 20 - 80 - 229
+	5 - 30 - 229
+
+	6 - 12 - 24 - 48 - 96 - 229
+	6 - 18 - 54 - 162 - 229
+	6 - 24 - 96 - 229
+	6 - 36 - 229
+
+
+====================================================================================================================================================
+
+LESSIONS FROM PAPER:
+
+	1. both lobes are identical but with time lagged data
+	2. network architecture is decreased by constant factor, dropout (10%) in first two layers
+	3. all layers with 'relu' and output with softmax
+	4. 90/10 train test split
+	5. optimal lag time - larger epochs - optimal network depth (4-6)
+	6. pre-trained by negative VAMP1 and then by VAMP2
+	7. Batch size of 400 - good compromis [as comp to 100-16000]
+	8. pre-training with negative vamp-1 - for first third of total epochs
+	9. scaling not mentioned specifically, except once for 1D-double well potential - mean free [like sds]
+
+
+CAUTION:
+if batch normalization: problem
+not in activation - linear
+
+
+
