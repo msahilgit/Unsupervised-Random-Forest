@@ -1,1 +1,9 @@
-.
+the two tutorials are provided as:
+
+t1: 
+a quick and direct implementation of URF protocol, as automatized in {URF} path (model.py), along with explanation of available schemes/hyper-parameters and an example.
+
+t2:
+a step-by-step raw implementation of URF protocol.
+
+Actual scripts used to generate the results, are in {scripts} path.
