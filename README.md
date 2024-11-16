@@ -4,11 +4,11 @@ Accurate data representation is paramount in molecular dynamics simulations to c
 
 this path is implementation of URF protocol, corresponding to publication(ref.).
 
-This path constitutes subpaths:
-  URF: the URF module for implementation, includes __versions__ for required libraries and their versions (not strict requirement).
-  usage: tutorials for URF implementation
-  data: scripts for data estimation from MD trajectories, as used in ref.
-  scripts: python scripts for reproducing the results in ref.
+This path constitutes subpaths: \\
+  URF: the URF module for implementation, includes __versions__ for required libraries and their versions (not strict requirement). \\
+  usage: tutorials for URF implementation \\
+  data: scripts for data estimation from MD trajectories, as used in ref. \\
+  scripts: python scripts for reproducing the results in ref.\\
   
 
 ref: --to be published
