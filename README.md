@@ -78,6 +78,9 @@ cd Unsupervised-Random-Forest/
 pip install -e .
 
 
+from URF.model import unsupervised_random_forest as urf
+
+
 
 
 
