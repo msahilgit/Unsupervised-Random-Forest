@@ -83,3 +83,48 @@ dobj=urf()
 dobj.fit()
 lc,fimp=dobj.get_output()
 ```
+
+
+
+
+
+# My Project
+
+## Quick Links
+
+<p>
+  <a href="https://example.com" target="_blank" style="text-decoration:none;">
+    <button style="
+      background-color:#0078D4;
+      border:none;
+      color:white;
+      padding:10px 20px;
+      text-align:center;
+      text-decoration:none;
+      display:inline-block;
+      font-size:16px;
+      border-radius:5px;
+      cursor:pointer;">
+      Visit Website
+    </button>
+  </a>
+
+  <a href="https://github.com" target="_blank" style="text-decoration:none;">
+    <button style="
+      background-color:#28A745;
+      border:none;
+      color:white;
+      padding:10px 20px;
+      text-align:center;
+      text-decoration:none;
+      display:inline-block;
+      font-size:16px;
+      border-radius:5px;
+      cursor:pointer;">
+      GitHub
+    </button>
+  </a>
+</p>
+
+
+
