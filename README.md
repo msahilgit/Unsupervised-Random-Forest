@@ -89,7 +89,7 @@ lc,fimp=dobj.get_output()
 <p>
   <a href="https://github.com/navjeet0211/rf-tica-md" target="_blank" style="text-decoration:none;">
     <button style="
-      background-color:#006400; /* Dark Green */
+      background-color:#006600;
       border:none;
       color:white;
       padding:10px 20px;
