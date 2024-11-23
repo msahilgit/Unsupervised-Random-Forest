@@ -21,49 +21,49 @@ This path constitutes subpaths:
 ref: --to be published
 
 
-MAIN
- ├── URF
- │
- ├── data 
- │     ├── ASH1
- │     ├── LJ polymer
- │     ├── P450_binding
- │     ├── P450_channel1
- │     ├── SIC1
- │     ├── T4L
- │     ├── asyn
- │     ├── mopR
- │     ├── mopR_ensembles
- │     ├── pASH1
- │     └── pSIC1
- │
- ├── scripts
- │     ├── 0_python_modules
- │     ├── ASH1
- │     ├── LJ_polymer
- │     ├── P450_binding
- │     ├── P450_channel1
- │     ├── SIC1
- │     ├── T4L
- │     ├── asyn
- │     ├── baseline
- │           ├── mopr   
- │           └── t4l
- │     ├── functional_regions
- │           ├── mopr
- │           ├── t4l
- │           └── diffnet
- │     ├── hyperparameters
- │     ├── mopR
- │     ├── msm
- │           ├── mopr
- │           ├── asyn
- │           └── vampnet
- │     ├── optimization
- │     ├── pASH1
- │     └── pSIC1
- │
- └── usage
+MAIN <br>
+ ├── URF <br>
+ │ <br>
+ ├── data <br>
+ │     ├── ASH1 <br>
+ │     ├── LJ polymer <br>
+ │     ├── P450_binding <br>
+ │     ├── P450_channel1 <br>
+ │     ├── SIC1 <br>
+ │     ├── T4L <br>
+ │     ├── asyn <br>
+ │     ├── mopR <br>
+ │     ├── mopR_ensembles <br>
+ │     ├── pASH1 <br>
+ │     └── pSIC1 <br>
+ │ <br>
+ ├── scripts <br>
+ │     ├── 0_python_modules <br>
+ │     ├── ASH1 <br>
+ │     ├── LJ_polymer <br>
+ │     ├── P450_binding <br>
+ │     ├── P450_channel1 <br>
+ │     ├── SIC1 <br>
+ │     ├── T4L <br>
+ │     ├── asyn <br>
+ │     ├── baseline <br>
+ │           ├── mopr    <br>
+ │           └── t4l <br>
+ │     ├── functional_regions <br>
+ │           ├── mopr <br>
+ │           ├── t4l <br>
+ │           └── diffnet <br>
+ │     ├── hyperparameters <br>
+ │     ├── mopR <br>
+ │     ├── msm <br>
+ │           ├── mopr <br>
+ │           ├── asyn <br>
+ │           └── vampnet <br>
+ │     ├── optimization <br>
+ │     ├── pASH1 <br>
+ │     └── pSIC1 <br>
+ │ <br>
+ └── usage <br> <br>
 
 
 
