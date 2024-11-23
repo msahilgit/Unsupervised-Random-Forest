@@ -67,7 +67,15 @@ this repository is implementation of URF protocol, corresponding to publication(
 - scipy <br>
 - joblib <br>
 
+### Installation
+Putting URF path or scripts directly in path (sys.path.append('./URF')) can work without installation. <br>
+Though, followings commands can be done to install the URF via conda environment
 
+conda create --name urf python=3.9
+conda activate urf
+git clone https://github.com/msahilgit/Unsupervised-Random-Forest
+cd Unsupervised-Random-Forest/
+pip install -e .
 
 
 
