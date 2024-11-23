@@ -7,24 +7,10 @@ Accurate data representation is paramount in molecular dynamics simulations to c
 
 this repository is implementation of URF protocol, corresponding to publication(ref.).
 
-This path constitutes subpaths: 
-
-  URF: the URF module for implementation, includes __versions__ for required libraries and their versions (not strict requirement). 
-  
-  usage: tutorials for URF implementation 
-  
-  data: scripts for data estimation from MD trajectories, as used in ref. 
-  
-  scripts: python scripts for reproducing the results in ref.
-  
-
-ref: --to be published
-
-
 MAIN <br>
- ├── URF <br>
+ ├── URF : the unsupervised-random-forest module<br>
  │ <br>
- ├── data <br>
+ ├── data : scripts for data estimation from MD trajectories <br>
  │     ├── ASH1 <br>
  │     ├── LJ polymer <br>
  │     ├── P450_binding <br>
@@ -37,7 +23,7 @@ MAIN <br>
  │     ├── pASH1 <br>
  │     └── pSIC1 <br>
  │ <br>
- ├── scripts <br>
+ ├── scripts : scripts for reproducibility of results <br>
  │     ├── 0_python_modules <br>
  │     ├── ASH1 <br>
  │     ├── LJ_polymer <br>
@@ -63,14 +49,7 @@ MAIN <br>
  │     ├── pASH1 <br>
  │     └── pSIC1 <br>
  │ <br>
- └── usage <br> <br>
+ └── usage : guidelines/tutorials for using URF  <br> <br>
 
 
 
-MAIN <br>
-├── f1 <br>
-│   ├── f11 <br>
-│   └── f12 <br>
-└── f2 <br>
-    ├── f21 <br>
-    └── f22 <br>
