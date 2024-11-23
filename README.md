@@ -86,24 +86,6 @@ lc,fimp=dobj.get_output()
 
 
 ### Quick Links
-<p>
-  <a href="https://github.com/navjeet0211/rf-tica-md" target="_blank" style="text-decoration:none;">
-    <button style="
-      background-color:#006600;
-      border:none;
-      color:white;
-      padding:10px 20px;
-      text-align:center;
-      text-decoration:none;
-      display:inline-block;
-      font-size:16px;
-      border-radius:5px;
-      cursor:pointer;">
-      RF-MD-TICA
-    </button>
-  </a>
-</p>
-
-
 [![RF-MD-TICA](https://img.shields.io/badge/RF--MD--TICA-darkgreen?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
-
+[![Paper](https://img.shields.io/badge/RF--MD--TICA-darkgreen?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
+[![Data](https://img.shields.io/badge/RF--MD--TICA-darkgreen?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
