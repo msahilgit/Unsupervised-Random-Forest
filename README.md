@@ -88,5 +88,5 @@ lc,fimp=dobj.get_output()
 
 ### Quick Links
 [![Paper](https://img.shields.io/badge/Paper-darkgreen?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
-[![Data](https://img.shields.io/badge/Data-darkgreen?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
-[![RF-MD-TICA](https://img.shields.io/badge/RF--MD--TICA-darkgreen?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
+[![Data](https://img.shields.io/badge/Data-darkred?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
+[![RF-MD-TICA](https://img.shields.io/badge/RF--MD--TICA-darkblue?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
