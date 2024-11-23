@@ -5,8 +5,8 @@ from tqdm import tqdm
 from multiprocessing import Pool
 import sys
 sys.path.append('./')
-import utils 
-import proximity_matrix as pmt
+from . import utils 
+from . import proximity_matrix as pmt
 import random
 from sklearn.ensemble import RandomForestClassifier as rfc, RandomForestRegressor as rfr
 import fastcluster

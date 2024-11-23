@@ -11,11 +11,11 @@ import sys
 import os
 import sys
 sys.path.append('./')
-import utils
-import synthetic_data as syn
-import proximity_matrix as pmt
-import cluster 
-import metrics
+from . import utils
+from . import synthetic_data as syn
+from . import proximity_matrix as pmt
+from . import cluster 
+from . import metrics
 
 
 

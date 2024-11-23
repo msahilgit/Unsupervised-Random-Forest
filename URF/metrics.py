@@ -5,7 +5,7 @@ from tqdm import tqdm
 from multiprocessing import Pool
 import sys
 sys.path.append('./')
-import utils 
+from . import utils 
 from sklearn.metrics import confusion_matrix as cfm
 from sklearn.ensemble import RandomForestClassifier as rfc
 
