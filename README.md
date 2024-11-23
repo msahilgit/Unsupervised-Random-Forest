@@ -85,17 +85,11 @@ lc,fimp=dobj.get_output()
 ```
 
 
-
-
-
-# My Project
-
-## Quick Links
-
+### Quick Links
 <p>
-  <a href="https://example.com" target="_blank" style="text-decoration:none;">
+  <a href="https://github.com/navjeet0211/rf-tica-md" target="_blank" style="text-decoration:none;">
     <button style="
-      background-color:#0078D4;
+      background-color:#006400; /* Dark Green */
       border:none;
       color:white;
       padding:10px 20px;
@@ -105,26 +99,7 @@ lc,fimp=dobj.get_output()
       font-size:16px;
       border-radius:5px;
       cursor:pointer;">
-      Visit Website
-    </button>
-  </a>
-
-  <a href="https://github.com" target="_blank" style="text-decoration:none;">
-    <button style="
-      background-color:#28A745;
-      border:none;
-      color:white;
-      padding:10px 20px;
-      text-align:center;
-      text-decoration:none;
-      display:inline-block;
-      font-size:16px;
-      border-radius:5px;
-      cursor:pointer;">
-      GitHub
+      RF-MD-TICA
     </button>
   </a>
 </p>
-
-
-
