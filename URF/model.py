@@ -9,6 +9,8 @@ import pickle as pkl
 from tqdm import tqdm
 import sys
 import os
+import sys
+sys.path.append('./')
 import utils
 import synthetic_data as syn
 import proximity_matrix as pmt
@@ -24,8 +26,10 @@ class unsupervised_random_forest:
     defined in citation_here.
 
     usage:
-
-    explanation:
+        from model import unsupervised_random_forest as urf
+        dobj = urf(**args)
+        dobj.fit(data)
+        lc, fimp = dobj.get_output()
 
     INPUTS::
         random_state    - [int] d[42] a random integer to set the random seed
