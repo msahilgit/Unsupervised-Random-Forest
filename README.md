@@ -55,17 +55,17 @@ MAIN <br>
 ### Dependencies 
 - Numpy <br>
 - scikit-learn <br>
-numba <br>
-copy <br>
-tqdm <br>
-multiprocessing <br>
-sys <br>
-fastcluster <br>
-gc <br>
-pickle <br>
-tables (only for certain functions of proximity_matrix.py, off by default) <br>
-scipy <br>
-joblib <br>
+- numba <br>
+- copy <br>
+- tqdm <br>
+- multiprocessing <br>
+- sys <br>
+- fastcluster <br>
+- gc <br>
+- pickle <br>
+- tables (only for certain functions of proximity_matrix.py, off by default) <br>
+- scipy <br>
+- joblib <br>
 
 
 
