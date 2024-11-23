@@ -21,19 +21,3 @@ This path constitutes subpaths:
 ref: --to be published
 
 
-<div>
-  <button onclick="showContent('tab1')">Tab 1</button>
-  <button onclick="showContent('tab2')">Tab 2</button>
-  <button onclick="showContent('tab3')">Tab 3</button>
-</div>
-
-<div id="tab1" style="display:none;">Content for Tab 1</div>
-<div id="tab2" style="display:none;">Content for Tab 2</div>
-<div id="tab3" style="display:none;">Content for Tab 3</div>
-
-<script>
-  function showContent(tabId) {
-    document.querySelectorAll('div[id^="tab"]').forEach(tab => tab.style.display = 'none');
-    document.getElementById(tabId).style.display = 'block';
-  }
-</script>
