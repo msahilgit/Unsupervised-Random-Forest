@@ -80,7 +80,7 @@ pip install -e .
 ```bash
 from URF.model import unsupervised_random_forest as urf
 dobj=urf()
-dobj.fit()
+dobj.fit(data)
 lc,fimp=dobj.get_output()
 # see usage/t{1,2}.ipynb for details
 ```
