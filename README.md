@@ -8,9 +8,9 @@ Accurate data representation is paramount in molecular dynamics simulations to c
 this repository is implementation of URF protocol, corresponding to publication(ref.).
 
 **MAIN** <br>
- ├── **URF** : the unsupervised-random-forest module<br>
+ ├── **URF** : *the unsupervised-random-forest module* <br>
  │ <br>
- ├── **data** : scripts for data estimation from MD trajectories <br>
+ ├── **data** : *scripts for data estimation from MD trajectories* <br>
  │     ├── ASH1 <br>
  │     ├── LJ polymer <br>
  │     ├── P450_binding <br>
@@ -23,7 +23,7 @@ this repository is implementation of URF protocol, corresponding to publication(
  │     ├── pASH1 <br>
  │     └── pSIC1 <br>
  │ <br>
- ├── **scripts** : scripts for reproducibility of results <br>
+ ├── **scripts** : *scripts for reproducibility of results* <br>
  │     ├── 0_python_modules <br>
  │     ├── ASH1 <br>
  │     ├── LJ_polymer <br>
@@ -49,7 +49,7 @@ this repository is implementation of URF protocol, corresponding to publication(
  │     ├── pASH1 <br>
  │     └── pSIC1 <br>
  │ <br>
- └── **usage** : guidelines/tutorials for using URF  <br> <br>
+ └── **usage** : *guidelines/tutorials for using URF*  <br> <br>
 
 
 ### Dependencies 
