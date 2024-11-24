@@ -1,0 +1,15 @@
+The URF module can be easily used without requiring installation, as it does not necessitates specific dependencies and versions.
+
+For the above, use URF as follows:
+
+step-1: <br>
+&emsp; the files model.py, cluster.py, and metrics.py import some in-folder dependencies, as ```from . import utils``` <br>
+&emsp; change these lines to simple import statements, as ```import utils``` (just by removing ```from . ```) <br>
+
+step-2: <br>
+&emsp; put the URF path in the python script or notebook. <br>
+```
+import sys
+sys.path.append('./URF')
+from model import unsupervised_random_forest as urf
+```
