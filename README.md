@@ -74,6 +74,7 @@ conda activate urf
 git clone https://github.com/msahilgit/Unsupervised-Random-Forest
 cd Unsupervised-Random-Forest/
 pip install -e .
+#also see 'alternative.txt' for use without installation
 ```
 
 ### Usage
