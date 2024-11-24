@@ -2,12 +2,12 @@ The URF module can be easily used without requiring installation, as it does not
 
 For the above, use URF as follows:
 
-step-1: <br>
-&emsp; the files model.py, cluster.py, and metrics.py import some in-folder dependencies, as ```from . import utils``` <br>
-&emsp; change these lines to simple import statements, as ```import utils``` (just by removing ```from . ```) <br>
+step-1:
+    the files model.py, cluster.py, and metrics.py import some in-folder dependencies, as ```from . import utils```
+    change these lines to simple import statements, as ```import utils``` (just by removing ```from . ```)
 
-step-2: <br>
-&emsp; put the URF path in the python script or notebook. <br>
+step-2:
+    put the URF path in the python script or notebook.
 ```
 import sys
 sys.path.append('./URF')
