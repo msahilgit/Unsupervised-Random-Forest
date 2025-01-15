@@ -88,7 +88,7 @@ lc,fimp=dobj.get_output()
 
 
 ### Quick Links
-[![Paper](https://img.shields.io/badge/Paper-darkgreen?style=for-the-badge)](https://github.com/msahilgit/Unsupervised-Random-Forest/blob/main/data/to_be_released)
+[![Paper](https://img.shields.io/badge/Paper-darkgreen?style=for-the-badge)](https://www.biorxiv.org/content/10.1101/2024.11.30.626148v1.abstract)
 [![Data](https://img.shields.io/badge/Data-darkred?style=for-the-badge)](https://github.com/msahilgit/Unsupervised-Random-Forest/blob/main/data/to_be_released)
 [![RF-MD-TICA](https://img.shields.io/badge/RF--MD--TICA-darkblue?style=for-the-badge)](https://github.com/navjeet0211/rf-tica-md)
 [![previous-work](https://img.shields.io/badge/previous--paper-gray?style=for-the-badge)](https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c00932)
